@@ -1,42 +1,82 @@
-h1 { 
- color: #000000;
- font: size 1000px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
-p1 {
- color: #000000;
- font: size 500px;
- }
-p2 {
- color: #000000;
- font: size 750px;
-}
-h2 {
- color: #000000;
- font: size 750px;
-}
+
 body {
-    margin: 100;
-    padding: 100;
-    background-image: url('https://drive.google.com/file/d/1xSK2XtB5B-NDt83D-5S-tDJzjsWiOrEf/view?usp=drive_link')
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+  min-height: 100vh;
+  background: 
+    linear-gradient(rgba(0,0,0,0.05), rgba(0,0,0,0.55)),
+    url('vanislav.jpg') no-repeat center center/cover;
+  color: #fff;
+  display: flex;
+  align-items: center;
 }
 
 
+.container {
+  width: 100%;
+  max-width: 700px;
+  margin-left: 5%;
+  padding: 40px;
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+
+  box-shadow: 0 0 30px rgba(0,0,0,0.6);
+}
 
 
+h1 {
+  font-size: 46px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 34px;
+  color: #ccc;
+}
 
 
+p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  font-size: 22px;
+  color: #ddd;
+}
 
 
+ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+ul li {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
 
 
+a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 18px;
 
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+  text-decoration: none;
 
+  transition: 0.3s;
+}
 
-
-
-
-
-
+a:hover {
+  background: rgba(255,255,255,0.25);
+  transform: translateY(-2px);
+}
